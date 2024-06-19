@@ -1,16 +1,18 @@
 package leetcode.longestCommonPrefix;
 
 class Solution {
-    public int lengthOfLastWord(String s) {
-        int largestWord = 0;
-        String[] strArray = null;  
-        strArray = s.split(" ");  
+    public String longestCommonPrefix(String[] strs) {
+        String longestPrefix = strs[0];
 
-        for (int i = 0; i < strArray.length; i++) {
-            if(strArray[i].length() > largestWord){
-                largestWord = strArray[i].length();
+        for (int i = 0; i < longestPrefix.length(); i++) {
+            char currentChar = longestPrefix.charAt(i);
+            for (int j = 1; j < strs.length; j++) {
+                if (i >= strs[j].length() || strs[j].charAt(i) != currentChar) {
+                    return longestPrefix.substring(0, i);
+                }
             }
         }
-        return largestWord;
+
+        return longestPrefix;
     }
 }
