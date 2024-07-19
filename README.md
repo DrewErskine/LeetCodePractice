@@ -15,4 +15,5 @@
 
 ## Hashmaps
 
+290. Word Pattern
 383. Ransom Note
