@@ -1,4 +1,4 @@
-package leetcode.zigZag;
+package leetcode.testLinkedListCycle;
 
 public class Solution {
     public boolean hasCycle(ListNode head) {
