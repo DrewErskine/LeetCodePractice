@@ -2,12 +2,14 @@ package leetcode.testLinkedListCycle;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import leetcode.LinkedListCycle.ListNode;
+import leetcode.LinkedListCycle.Solution;
 
 public class SolutionTest {
 
     @Test
     public void testLinkedListCycle() {
-        Solution solution = new Solution();
+        Solution solution = new Solution(); // Correctly instantiate Solution
         
         // Test case 1: head = [3,2,0,-4], pos = 1
         ListNode node1 = new ListNode(3);
