@@ -1,7 +1,7 @@
 package leetcode.questionName;
 
 public class Solution {
-    public output questionName(input s) {
+    public String questionName(String s) {
 
         return null;
 

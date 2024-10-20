@@ -9,8 +9,8 @@ public class SolutionTest {
     public void testQuestionName() {
         Solution solution = new Solution();
         
-        assertEquals();
-        assertEquals();
-        assertEquals();
+        //assertEquals();
+        //assertEquals();
+        //assertEquals();
     }
 }
